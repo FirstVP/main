@@ -1,0 +1,10 @@
+sin
+cos
+sqrt
+arctan
+ln
+exp
+abs
+sign
+entier
+output

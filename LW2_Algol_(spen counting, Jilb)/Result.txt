@@ -1,0 +1,281 @@
+////////////\\\\\\\\\\\
+Level name::GLOBAL:
+--------
+Identificator: i
+Spen:1
+--------
+\\\\\\\\\\\//////////
+////////////\\\\\\\\\\\
+Level name:bess
+--------
+Identificator: c
+Spen:2
+Identificator: k
+Spen:5
+--------
+Identificator: expx
+Spen:2
+--------
+Identificator: f
+Spen:0
+Identificator: n
+Spen:10
+Identificator: x
+Spen:4
+Identificator: a
+Spen:4
+Identificator: ia
+Spen:6
+--------
+Identificator: aa
+Spen:1
+Identificator: x
+Spen:0
+Identificator: n
+Spen:0
+Identificator: ia
+Spen:0
+--------
+\\\\\\\\\\\//////////
+////////////\\\\\\\\\\\
+Level name:fun
+--------
+Identificator: i
+Spen:4
+Identificator: x1
+Spen:3
+Identificator: x2
+Spen:4
+Identificator: x3
+Spen:4
+--------
+Identificator: n
+Spen:1
+Identificator: l
+Spen:1
+Identificator: u
+Spen:1
+Identificator: x
+Spen:1
+Identificator: f
+Spen:1
+--------
+\\\\\\\\\\\//////////
+////////////\\\\\\\\\\\
+Level name:formbeta
+--------
+Identificator: r
+Spen:12
+Identificator: i
+Spen:16
+Identificator: j
+Spen:12
+Identificator: bb
+Spen:4
+Identificator: c
+Spen:16
+Identificator: d
+Spen:5
+Identificator: b
+Spen:11
+Identificator: pt
+Spen:2
+Identificator: beta
+Spen:6
+Identificator: fac
+Spen:6
+Identificator: betac
+Spen:4
+--------
+--------
+\\\\\\\\\\\//////////
+////////////\\\\\\\\\\\
+Level name:absmax
+--------
+Identificator: p
+Spen:4
+Identificator: q
+Spen:4
+--------
+Identificator: a
+Spen:2
+Identificator: n
+Spen:1
+Identificator: m
+Spen:1
+Identificator: i
+Spen:2
+Identificator: k
+Spen:2
+Identificator: y
+Spen:3
+--------
+\\\\\\\\\\\//////////
+////////////\\\\\\\\\\\
+Level name:righthandside
+--------
+Identificator: c1
+Spen:4
+Identificator: c2
+Spen:5
+Identificator: c3
+Spen:2
+Identificator: l
+Spen:3
+--------
+Identificator: cosiphi
+Spen:14
+Identificator: phil
+Spen:1
+Identificator: sinphi
+Spen:13
+Identificator: r
+Spen:3
+Identificator: i
+Spen:5
+Identificator: j
+Spen:8
+Identificator: zi
+Spen:8
+Identificator: d
+Spen:6
+--------
+--------
+\\\\\\\\\\\//////////
+////////////\\\\\\\\\\\
+Level name:stepsize
+--------
+Identificator: d
+Spen:10
+Identificator: hstab
+Spen:4
+Identificator: hstabint
+Spen:3
+Identificator: h
+Spen:11
+Identificator: te
+Spen:2
+Identificator: t
+Spen:3
+Identificator: phi
+Spen:3
+Identificator: phi0
+Spen:2
+Identificator: diameter
+Spen:5
+Identificator: betar
+Spen:2
+Identificator: sigma
+Spen:5
+Identificator: b
+Spen:4
+Identificator: b0
+Spen:4
+Identificator: eps
+Spen:4
+Identificator: change
+Spen:1
+Identificator: tol
+Spen:2
+Identificator: beta
+Spen:1
+--------
+--------
+\\\\\\\\\\\//////////
+////////////\\\\\\\\\\\
+Level name:rkstep
+--------
+Identificator: x
+Spen:6
+Identificator: xl
+Spen:6
+Identificator: h
+Spen:12
+Identificator: y
+Spen:6
+Identificator: yl
+Spen:6
+Identificator: zl
+Spen:1
+Identificator: fxy
+Spen:6
+Identificator: d
+Spen:4
+Identificator: k0
+Spen:10
+Identificator: k1
+Spen:4
+Identificator: k2
+Spen:5
+Identificator: k3
+Spen:4
+Identificator: k4
+Spen:3
+Identificator: mu
+Spen:1
+--------
+\\\\\\\\\\\//////////
+////////////\\\\\\\\\\\
+Level name:rke
+--------
+Identificator: j
+Spen:0
+Identificator: xt
+Spen:0
+Identificator: h
+Spen:3
+Identificator: hmin
+Spen:1
+Identificator: int
+Spen:4
+Identificator: hl
+Spen:0
+Identificator: ht
+Spen:0
+Identificator: absh
+Spen:1
+Identificator: fhm
+Spen:0
+Identificator: discr
+Spen:0
+Identificator: tol
+Spen:0
+Identificator: mu
+Spen:0
+Identificator: mu1
+Spen:0
+Identificator: fh
+Spen:0
+Identificator: e1
+Spen:1
+Identificator: e2
+Spen:1
+Identificator: last
+Spen:0
+Identificator: first
+Spen:1
+Identificator: reject
+Spen:1
+Identificator: k0
+Spen:0
+Identificator: k1
+Spen:0
+Identificator: k2
+Spen:0
+Identificator: k3
+Spen:0
+--------
+Identificator: n
+Spen:0
+Identificator: x
+Spen:3
+Identificator: xe
+Spen:3
+Identificator: fi
+Spen:1
+Identificator: y
+Spen:0
+Identificator: data
+Spen:9
+--------
+\\\\\\\\\\\//////////

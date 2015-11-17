@@ -1,0 +1,201 @@
+begin 
+integer i;
+
+procedure bess(a, x, n, ia);
+integer aa, x, n, ia;
+   begin
+  integer f;
+goto theone;
+theone:
+   
+   integer n; real x, a; array ia;
+   if x= 0 then
+   begin 
+      i := 3;
+      ia[0]:= if a= 0 then 1 else 0;
+      for n:= n step -1 until 1 do begin for n:=n step -1 until 1 do n :=5; ia[n]:= 0; end;
+   end 
+   else
+   if a= 0 then
+   begin
+     a := 3;
+     aa := 7;
+   end 
+   else
+   begin
+    if a= 5 then
+   begin real c;
+  integer k;
+   k:=15;
+     c:= 797 884 560 802 865 * sqrt(abs(x)) * exp (abs (x));
+     for k:= k step -1 until 0 do ia[k]:= c*ia[k]
+   end 
+   end
+   else
+   begin 
+     real expx;
+   
+     expx:= exp(abs(x));
+     for n:= n step -1 until 0 do ia[n]:= expx * ia[n];
+   end;
+end;
+
+procedure fun(n, l, u, x, f);
+         integer n, l, u; array x, f;
+         begin integer i; real x1, x2, x3;
+             x1:= 14;
+             x3:= 15;
+             for i:= l step 1 until u do
+             begin f[i]:= (3 - 2 * x2) * x2 + 1 - x1 - x3 * 2;
+                 x1:= x2; x2:= x3;
+                 x3:= if i <= n - 2 then x[i + 2] else 0;
+             end; 
+         end;
+
+
+procedure formbeta;
+     begin integer r, i,j; real bb,c,d, b; array pt, beta, fac, betac;
+         if l=1 then
+         begin c:=1-exp(-b);
+             for j:=1 step 1 until r do c:=beta[j]-c/b;
+             beta[r+1]:=c/b;
+         end else
+         if b>40 then
+         begin for i:=r+1 step 1 until r+l do
+             begin c:=0;
+                 for j:=0 step 1 until r do
+                 c:=beta[j]*pt[j]/(i-j)-c/b;
+                 beta[i]:=c/b/fac[l+r-i]/fac[i-r-1]
+             end;
+         end else
+         begin d:=c:=exp(-b); betac[l-1]:=d/fac[l-1];
+             for i:=1 step 1 until l-1 do
+             begin c:=b*c/i; d:=d+c; betac[l-1-i]:=d/fac[l-1-i] end;
+             bb:=1;
+             for i:=r+1 step 1 until r+l do
+             begin c:=0;
+                 for j:=0 step 1 until r do
+                 c:=(beta[j]-(if j<l then betac[j] else 0))*
+                    pt[j]/(i-j)-c/b;
+                 beta[i]:=c/b/fac[l+r-i]/fac[i-r-1]+
+                          (if i<l then bb*betac[i] else 0);
+                 bb:=bb*b;
+             end;
+         end;
+     end;
+
+procedure Absmax(a, n, m, y, i, k);
+     array a; integer n, m, i, k; real y;
+comment Наибольший элемент матрицы a, размера n на m 
+ передаётся в виде результата в y, а его индексы — в параметры i и k;
+begin integer p, q;
+    y := 0; i := k := 1;
+    for p:=1 step 1 until n do
+      for q:=1 step 1 until m do
+        if abs(a[p, q]) > y then
+        begin y := abs(a[p, q]);
+          i := p; k := q;
+        end;
+end;
+
+procedure righthandside;
+         begin integer cosiphi, phil, sinphi, r, i, j, zi; array d;
+             e:=exp(b*cosphi);
+             b1:=b*sinphi-(r+1)*phil;
+             cosiphi:=e*cos(b1); sinphi:=e*sin(b1);
+             b1:=1/b; zi:=b1**r;
+             for j:=l step -2 until 2 do
+             begin d[j]:=zi*siniphi;
+                 d[j-1]:=zi*cosiphi;
+                 cosiphi :=cosiphi*cosiphi-sinphi*sinphi;
+                 sinphi:=cosiphi*sinphi+sinphi*cosiphi;
+                 cosiphi:=cosphil;
+                 zi:=zi*b
+             end;
+             cosiphi:=zi:=1; sinphi:=0;
+             for i:=r step -1 until 0 do
+             begin real c1, c2, c3, l;
+                 c1:=i; c2:=beta[i];
+                 c3:=if 2*i>l-2 then 2 else l-2*i;
+                 cosiphi :=cosiphi*cosphi-siniphi*sinphi;
+                 sinphi:=cosiphi*sinphi+sinphi*cosiphi;
+                 for j:=l step -2 until c3 do
+                 begin d[j]:=d[j]+zi*c2*sinphi;
+                     d[j-1]:=d[j-1]-zi*c2*cosiphi;
+                     c2:=c2*c1; c1:=c1-1;
+
+                 end;
+             end;
+         end;
+
+
+
+procedure stepsize();
+     begin real d,hstab,hstabint, h, te, t, phi, phi0; integer diameter, step, betar, sigma, b, b0, eps, change, tol; array beta;
+         h:=step;
+         d:=abs(sigma*sin(phi));
+         complex:=l//2*2=l and 2*d>diameter;
+         if diameter>0 then
+         hstab:=(sigma**2/(diameter*(diameter*.25+d)))**(l*.5/r)/
+                betar/sigma
+         else hstab:=h;
+         d:= if thirdorder then (2*tol/eps/beta[r])**(1/(n-1))*
+             4**((l-1)/(n-1)) else (tol/eps)**(1/r)/betar;
+         hstabint:= abs(d/sigma);
+         if h>hstab then h:=hstab;
+         if h>hstabint then h:=hstabint;
+         if t+h>te*(1-k*eps) then
+         begin last:=true; h:=te-t end;
+         b:=h*sigma; d:=diameter*.1*h; d:=d*d;
+         if h<t*eps  then goto endofefrk;
+         change:=b0=-1 or ((b-b0)*(b-b0)+b*b0*(phi-phi0)*(phi-phi0)>d);
+endofefrk:;
+     end;
+
+
+procedure rkstep(x, xl, h, y, yl, zl, fxy, d);
+       real x, xl, h, y, yl, zl, fxy;
+       integer d, k0, k1, k2, k3, k4, mu;
+       begin if d = 2 then goto integrate; if d = 3 then
+          begin x:= xl; y:= yl; k0:= fxy * h end
+          else if d = 1 then k0:= zl * h else k0:= k0 * mu;
+          x:= xl + h / 4.5; y:= yl + k0 / 4.5; k1:= fxy * h;
+          x:= xl + h / 3; y:= yl + (k0 + k1 * 3) / 12;
+          k2:= fxy * h; x:= xl + h * .5;
+          y:= yl + (k0 + k2 * 3) / 8; k3:= h * fxy;
+          x:= xl + h * .8;
+          y:= yl + (k0 * 53 - k1 * 135 + k2 * 126 + k3 *
+          56) / 125; k4:= fxy * h; if d <= 1 then
+          begin x:= xl + h;
+             y:= yl + (k0 * 133 - k1 * 378 + k2 * 276 + k3
+             * 112 + k4 * 25) / 168; k5:= fxy * h;
+             discr:= abs(k0 * 21 - k2 * 162 + k3 * 224 - k4
+             * 125 + k5 * 42) / 14; goto end
+          end;
+       integrate: x:= xl + h;
+          y:= yl + ( - k0 * 63 + k1 * 189 - k2 * 36 - k3 *
+          112 + k4 * 50) / 28; k5:= fxy * h;
+          y:= yl + (k0 * 35 + k2 * 162 + k4 * 125 + k5 *
+          14) / 336;
+       end:;
+       end;  
+
+procedure rke (x, xe, n, y, der, data, fi, out);
+    integer n; real x, xe;
+    boolean fi; array y, data;
+    begin integer j;
+       real xt, h, hmin, int, hl, ht, absh, fhm, discr, tol, mu,
+       mu1, fh, e1, e2;
+       boolean last, first, reject;
+       array k0, k1, k2, k3;
+       if fi then
+       begin data[3]:= xe - x; data[4]:= data[5]:= data[6]:= 0 end;
+       absh:= h:= abs(data[3]);
+       if xe < x then h:= - h; int:= abs(xe - x);
+       hmin:= int * data[1] + data[2];
+       e1:= 12 * data[1] / int; e2:= 12 * data[2] / int;
+       first:= true; reject:= false; 
+end;
+
+
+end;
